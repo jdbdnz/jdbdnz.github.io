@@ -4,9 +4,9 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :app, %w{jdbd.cloudapp.net}
-role :web, %w{jdbd.cloudapp.net}
-role :db,  %w{jdbd.cloudapp.net}
+role :app, %w{jdbd.nz}
+role :web, %w{jdbd.nz}
+role :db,  %w{jdbd.nz}
 
 
 # Extended Server Syntax
@@ -15,7 +15,7 @@ role :db,  %w{jdbd.cloudapp.net}
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server 'jdbd.cloudapp.net', user: 'groot', roles: %w{web app}, my_property: :my_value
+server 'jdbd.nz', user: 'groot', roles: %w{web app}, my_property: :my_value
 
 
 # Custom SSH Options

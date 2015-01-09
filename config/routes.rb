@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+
+  root 'public#index'
+  get 'projects' => 'public#projects'
+  get 'contact' => 'public#contact'
+
+  devise_for :users, path: 'josh'
+  devise_scope :user do
+    get 'josh' => 'devise/sessions#new'
+  end
+
+  resources :articles, path: 'blog' do
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
