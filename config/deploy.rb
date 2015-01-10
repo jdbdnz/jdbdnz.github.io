@@ -3,13 +3,13 @@ lock '3.3.5'
 
 set :application, 'jdbd'
 set :repo_url, 'git@github.com:jdbdean/jdbd.git'
-
 #set :use_sudo, true
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '~/apps'
+
 
 # Default value for :scm is :git
 # set :scm, :git
