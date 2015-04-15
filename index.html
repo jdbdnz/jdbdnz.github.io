@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+		*************************************************************************************************************
+		If this is your first time clicking on index.html, you should switch to the Visual Editor view (pencil icon) at top right.
+        
+        If you've been directed here by instructions of this tutorial template, head down to line 81 to get started.
+		*************************************************************************************************************
+		-->
+	<head>
+		<meta charset="utf-8" />
+		<title>CloudCannon Tutorial Theme</title>
+		<link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1>Welcome to CloudCannon!</h1>
+			<h2>This is your tutorial test site.</h2>
+		</div>
+		<div class="content">
+			<p>CloudCannon makes it easy for website designers and developers to allow clients and non-technical team members to edit static websites.</p>
+			<p>This tutorial site will teach you the basics of CloudCannon.</p>
+            <p>You will finish this tutorial with a <strong>live, editable static website</strong> and the skills to make an existing static website editable on your own.</p>
+            <p>You will learn how to:</p>
+            <ul>
+                <li>edit site content in CloudCannon (like your clients will)</li>
+                <li>define editable site content in your source files; and</li>
+                <li>set up hosting on CloudCannon.</li>
+            </ul>
+            <p>You already know how to upload files to a new site in CloudCannon ;)</p>
+            <p>Let's get started.</p>
+            <hr />
+			<h3>1. Editing</h3>
+			<p>Editing is the core use of CloudCannon.</p>
+			<p class="editable">I am editable text.</p>
+			<p>Right now you are in CloudCannon’s Visual Editor view (pencil icon selected at upper right). This is the view your clients will eventually make edits in.</p>
+			<p>A yellow box around content tells users that they can edit it.</p>
+			<p>The simplest edits to make are text:</p>
+			<p class="editable">Click me and type to change what I say.</p>
+			<hr />
+			<p>Images are also easy to change.</p>
+			<img class="push_right editable" width="400" height="240" alt="Clouds" src="cloud_400x240.jpg" />
+			<p>The image to the right is editable.</p>
+			<p>In the Visual Editor you can zoom & crop an image or replace it.</p>
+            <p class="highlight">Note: Changes cannot be made to an image's size or position in the Visual Editor. This is so non-technical users can't break your site design.</p>
+			<p>Let's practice zooming and cropping.</p>
+            <ol>
+                <li>Click on the cloud image to bring up the image edit menu.</li>
+			    <li>Select “Alter cloud_400x240.jpg”. This will bring up the zoom and crop interface.</li>
+			    <li>Drag on the lower right hand corner of the image to zoom.</li>
+                <li>Drag the image from any other point to reposition it within the original image dimensions.</li>
+                <li>Confirm the crop by clicking the tick button.</li>
+            </ol>
+			<p>Nice. You’ve just altered an image.</p>
+			<p>Now let's replace the image with a new one. You can replace an image by:</p>
+			<ul>
+				<li>uploading a new image</li>
+				<li>choosing a new image from those already uploaded, or</li>
+				<li>importing a new image from a URL.</li>
+			</ul>
+			<p>Let’s replace that image of a cloud with a cannon.
+            <ol>
+                <li>Select ‘Use an image from {YOUR SITE NAME}’ from the image edit menu.</li>
+                <li>Find the image called “cannon_400x240.jpg” and select it.</li>
+			    <li>The image dimensions are the same so you can confirm the replacement without cropping.</li>
+            </ol>
+			</p><p>Let's replace that image again, this time with an image of a cloud AND a cannon.</p>
+            <ol>
+			    <li>Copy this URL: http://upload.wikimedia.org/wikipedia/commons/0/0f/Cloud2_(5966977597).jpg</li>
+                <li>Go into the image edit menu and select “Use an image from another website.”</li>
+			    <li>Paste the URL into the field.</li>
+			    <li>This image is a slightly different shape so you’ll need to position it for cropping and confirm it.</li>
+            </ol>
+			<p class="highlight">You can set lots of other elements to be editable like headers, spans, lists and divs. It is even possible to setup repeatable regions but for now we've covered the the basics.</p>
+            <hr />
+			<h3>2. Adding Editing</h3>
+			<p>The text below wants to be editable. But it’s not currently. It’s missing that yellow border. And that’s because it’s missing class="editable".</p>
+			<!--
+				*************************************************************************************************************
+				Add class="editable" inside the <p> tag of the paragraph directly below.
+				*************************************************************************************************************
+				-->
+			<p>I want to be editable text!</p>
+			<!--
+				*************************************************************************************************************
+				It should look like this: <p class="editable">I want to be editable text!</p>.
+
+				   When you have completed that, follow the next commented instruction.
+				*************************************************************************************************************
+				-->
+			<p>Switch to the Code Editor view (brackets icon at upper right) and follow the comments in the HTML at line 81. These will tell you how to add class="editable" to the text above.</p>
+			<!--
+				*********************************************************************************************************
+				While we’re in the Code Editor let’s make this image below editable as well.
+
+				Add the "editable" class inside the <img> tag. Note you can use "editable" in addition to other classes.
+				*********************************************************************************************************
+				-->
+			<img class="push_right" width="200" height="267" alt="egg" src="egg_200x267.jpg" />
+			<!--
+				*********************************************************************************************************
+				It should look something like this: <img class="push_right editable" width="400" height="533" alt="egg" src="egg_400x533.jpg" />
+
+				      Now go back to the Visual Editor to see the changes you've made to the text and the image.
+				*********************************************************************************************************
+				-->
+			<p>If you added class="editable" correctly you should now be able to edit the text and the image..</p>
+			<p>Change the text now to something new.</p>
+			<p>Change the image too. I suggest you use this for your new one: http://upload.wikimedia.org/wikipedia/commons/2/27/Chicken_free_range_1.jpg</p>
+			<p class="highlight">You don’t have to use our Code Editor to make changes to your files. You can make changes locally in your favourite text editor and sync them to CloudCannon using GitHub, Dropbox or FTP.</p>
+			<hr />
+			<h3>3. Saving</h3>
+			<p>Did you notice that you switched between the Visual Editor and the Code Editor without having to save changes? Pretty cool huh.</p>
+			<p>To keep changes made in the editors you do have to save before you leave though.</p>
+			<p>Saving is as simple as clicking the Disk icon at upper right. That saves your changes permanently to the source files and triggers the upload to the hosted site.</p>
+            <hr />
+			<h3>4. Hosting</h3>
+			<p>Right now this site is hosted by CloudCannon and viewable on the internet. That was so easy you maybe you didn’t realise you’d done it already?</p>
+			<p>Every site on CloudCannon gets a free testing domain and hosting.</p>
+            <p>You can find the URL for this website in the header next to the site name at upper left.</p>
+			<p>Visit this site now by clicking on the URL, set a password if you need to, and then come back down here on the live site in the new tab.</p>
+            <p class="highlight">Sites on our free plan have a compulsory password. You'll need to set a password to view them.</p>
+            <hr />
+			<h3>5. Put it in action</h3>
+			<p>Welcome back.</p>
+			<p>Looks familiar right?</p>
+			<p>But you can’t click on any of your editables?</p>
+			<p>Keep the tab with the live site open and come back into the Visual Editor in CloudCannon.</p>
+			<p>Make an edit to an editable element.</p>
+			<p>Save it.</p>
+			<p>Wait for the blue wheel to turn green at top left.</p>
+			<p>Refresh your live site tab.</p>
+            <p>Look for the change...</p>
+			<p>Boom. CloudCannon magic.</p>
+            <hr />
+			<h3>6. Go free little bird</h3>
+			<p>That’s the end of the CloudCannon tutorial.</p>
+			<p>You’ve got the skills now to add simple editing to static websites of your own.</p>
+			<p>Congratulations.</p>
+			<p>The only major things we haven’t covered are <a href="http://docs.cloudcannon.com/#sharing1_share_with_content_writerhtml">sharing sites with clients/non-technical users</a> and <a href="http://docs.cloudcannon.com/#common_tasks1_custom_domainshtml">adding custom domains</a>. These are easy to do from the 'Website Settings' menu at left (cog icon). They are both features of CloudCannon’s paid plans.</p>
+			<p><a href="http://docs.cloudcannon.com">Our documentation</a> also covers some more serious developer tasks you might like to tackle like setting up redirects, includes and forms.</p>
+			<p>If you were looking to build a blog or a more complex site check out our <a href="http://docs.cloudcannon.com/#jekyll1_introhtml">Jekyll beta</a> information.</p>
+			<p>Feel free to delete this site now (it’s in the 'Webite Settings' menu) and upload your own fresh new site.</p>
+			<p>Finally, remember you can always always contact <a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a> if you need a helping hand. We’d love to talk.</p>
+			<p>Cheers,</p>
+			<p>Mike, George, Sam, Tim &amp; Ross<br />
+				The CloudCannon team
+			</p>
+			<!--
+				*********************************************************************************************************
+				Image Attributions:
+
+				cloud_400x240.jpg: resized from http://commons.wikimedia.org/wiki/File:Above_the_Clouds.jpg
+				cannon_400x240.jpg: resized and cropped from http://commons.wikimedia.org/wiki/File:Cannon_Fire.jpg
+				egg_200x267.jpg: resized from http://commons.wikimedia.org/wiki/File:Egg.jpg
+
+				Thank you to these photographers!
+
+				*********************************************************************************************************
+				-->
+		<p></p></div>
+	</body>
+</html>
