@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+jdbd (a.k.a. Josh Dean) is an explorer, web developer, hacker, surfer, writer, coffee-addict who lives in Wellington New Zealand.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+His main squeeze is [Chalkle.com][chalkle]
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[chalkle]: https://chalkle.com
