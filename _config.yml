@@ -3,7 +3,7 @@ title: jdbd.nz
 email: hello@jdbd.nz
 description: > # this means to ignore newlines until "baseurl:"
   the less-than-professional curriculum vitae of jdbd
-baseurl: "/jdbd/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jdbd.nz" # the base hostname & protocol for your site
 twitter_username: jdbd_nz
 github_username:  jdbdean
