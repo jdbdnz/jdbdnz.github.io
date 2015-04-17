@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jdbd.nz</title>
+    <description>the less-than-professional curriculum vitae of jdbd
+</description>
+    <link>http://jdbd.nz/</link>
+    <atom:link href="http://jdbd.nz/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 17 Apr 2015 14:05:32 +1200</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 14:05:32 +1200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>the road from coffee to computers</title>
+        <description>&lt;p&gt;Way back in 2010 I made really &lt;a href=&quot;satellite&quot;&gt;good coffee&lt;/a&gt;. I would probably still be making great coffee now if &lt;a href=&quot;linkedin&quot;&gt;Brett Richardson&lt;/a&gt; hadn’t told me about the hottest thing at the time (Adobe Flash) and all the amazing money he was making in Europe with this thing called “Action Script 3″.&lt;/p&gt;
+
+&lt;p&gt;So I started as so many of us did - copying and pasting scripts of the internet to cobble together some fairly useless (only in retrospect I’m sure) Flash projects. Six months later I had moved back to NZ (I was on my 3 month turn 3 year OE in the states at the time), went south to Invercargill – the &lt;a href=&quot;SIT&quot;&gt;polytech is free down there&lt;/a&gt; - and enrolled in the Bachelor of Information Technology where my great mentor &lt;a href=&quot;linkedin&quot;&gt;Ken Sutton&lt;/a&gt; (head of department and all around fantastic guy) introduced me to zen and the art of coding.&lt;/p&gt;
+
+&lt;p&gt;Invercargill is filled with better chaps than many give them credit for - it was there I met &lt;a href=&quot;https://nz.linkedin.com/in/willfinlayson&quot;&gt;Will Finlayson&lt;/a&gt;, &lt;a href=&quot;https://nz.linkedin.com/in/avinashvarghese&quot;&gt;Nash Varghese&lt;/a&gt;, and &lt;a href=&quot;https://nz.linkedin.com/in/jamesdowlingnz&quot;&gt;Jim Dowling&lt;/a&gt;, all of which went through the emotional rollercoaster of &lt;a href=&quot;http://jobit.co.nz&quot;&gt;founding and failing their first start-up with me&lt;/a&gt;. Miraculously we were still mates at the end of that rollercoaster and went directly into starting up our own &lt;a href=&quot;https://digitalstock.co.nz&quot;&gt;development consultancy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In retrospect it was blissfully naieve for three IT graduates and a property manager to assume they knew how to run a development consultancy better than those already doing it, but credit to us all (scratch that - credit to them and only a little to me) we did better than we should of and after a lot of mistakes and hard work Digital Stock is now an established and growing Invercargill business.&lt;/p&gt;
+
+&lt;p&gt;Due to financial pressures and a nagging girlfriend I split with Digital Stock on good terms and took a spin on the carousal of enterprise applications. It was there met my &lt;a href=&quot;https://ts3.com.au&quot;&gt;three favourite Australians&lt;/a&gt; who gave me what were probably the most technically challenging projects I’ve ever worked on. Unfortunately that was short lived as I missed the glamour and the grit of the start-up world and on the tailcoats of a messy breakup I was pursuaded by &lt;a href=&quot;https://nz.linkedin.com/in/anthonycabraal&quot;&gt;Anthony Cabraal&lt;/a&gt; (probably the most pursuasive guy I’ve ever met) to remove myself to Wellington and rebuild the technology behind Chalkle.com in an &lt;a href=&quot;/mvc-vs-rails&quot;&gt;entirely unfamiliar stack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Chalkle gave me the opportunity to get to know &lt;a href=&quot;https://nz.linkedin.com/in/silviazuur&quot;&gt;Silvia Zuur&lt;/a&gt; (CEO) and &lt;a href=&quot;https://nz.linkedin.com/pub/matthew-kerr/10/a87/6a&quot;&gt;Matthew Kerr&lt;/a&gt; (His role changes every week as far as I’m aware), two of the most considerate and trustworthy people I’ve had the fortune to come across. I’m still strapped into the Chalkle rollercoaster - I’ve even had a recent promotion from “Developer” to “Lead Developer” on the expectation that we’ll be growing the development team soon.&lt;/p&gt;
+
+&lt;p&gt;Having brought the narrative to the present day I’m quite self-concious that this is vanity writing and the history of my professional career won’t really interest anyone but future-josh, so amuse me while I use this reflective moment to impart what humble wisdom the last half-decade has granted me:&lt;/p&gt;
+
+&lt;p&gt;When you abandon your coffee job for a profession do so not for the money but for love and obsession as any increase in income is entirely negated by the cost of maintaining the caffine addiction you’ve developed after years of slinging shots.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Apr 2015 08:14:18 +1200</pubDate>
+        <link>http://jdbd.nz/jdbd/2015/04/16/the-road-from-coffee-to-computers.html</link>
+        <guid isPermaLink="true">http://jdbd.nz/jdbd/2015/04/16/the-road-from-coffee-to-computers.html</guid>
+        
+        
+        <category>jdbd</category>
+        
+      </item>
+    
+  </channel>
+</rss>
