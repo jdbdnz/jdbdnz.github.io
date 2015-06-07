@@ -5,7 +5,7 @@ date:   2015-06-07
 categories: business
 ---
 
-Too many times I've made the mistake of not following the right steps when designing a start ups. Actually let me rephrase that - too many times I've forgotten to design a start up and blundered ahead with code. Occasionally I'll do some visual art (mock ups) first and praise myself for following protocol.
+Too many times I've made the mistake of not following the right steps when designing a product. Actually let me rephrase that - too many times I've forgotten to design a start up and blundered ahead with code. Occasionally I'll do some visual art (mock ups) first and praise myself for following protocol.
 
 The reality is that there is a butt-load of work to be done before you can decide on the shape of a button. In order for that button to accomplish your mission, your mission must be clearly defined. Unwise that button will flail around in dissatifaction and go work for another company with a clear mission/vision instead.
 
