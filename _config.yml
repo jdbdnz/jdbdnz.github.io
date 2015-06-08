@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jdbd.nz" # the base hostname & protocol for your site
 twitter_username: jdbd_nz
 github_username:  jdbdean
+gravatar: http://gravatar.com/avatar/fb27d839cb858403f58f10f0d5434652.jpeg?s=1024
 
 # Build settings
 markdown: kramdown
