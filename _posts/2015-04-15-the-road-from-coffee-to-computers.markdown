@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "the road from coffee to computers"
+title:  "From Coffee to Computers"
 date:   2015-04-15
 categories: jdbd
 ---
 
-Way back in 2010 I made really [good coffee][satellite]. I would probably still be making great coffee now if [Brett Richardson][brett] hadn’t told me about the hottest thing at the time (Adobe Flash) and all the amazing money he was making in Europe with this thing called “Action Script 3″.
+Way back in 2010 I made [really good coffee][satellite]. I would probably still be making great coffee now if [Brett Richardson][brett] hadn’t told me about the hottest thing at the time (Adobe Flash) and all the amazing money he was making in Europe with this thing called “Action Script 3″.
 
 So I started as so many of us did - copying and pasting scripts of the internet to cobble together some fairly useless (only in retrospect I’m sure) Flash projects. Six months later I had moved back to NZ (I was on my 3 month turn 3 year OE in the states at the time), went south to Invercargill – the [polytech is free down there][sit] - and enrolled in the Bachelor of Information Technology where my great mentor [Ken Sutton][ken] (head of department and all around fantastic guy) introduced me to zen and the art of coding.
 
