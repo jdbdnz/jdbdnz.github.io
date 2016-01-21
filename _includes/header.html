@@ -1,9 +1,35 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="wrapper ">
+    
+    <div  class="site-title">
+      
+      <div class="text-right">
+        <a href="{{ site.baseurl }}/">
+          <img src="{{ site.avatar }}" class="avatar visible-xs" />
+        </a>
+        <strong>{{ site.title }}</strong>
+      </div>
+      
+      <div class="text-center hidden-xs">
+        <a href="{{ site.baseurl }}/">
+          <img src="{{ site.avatar }}" class="avatar" />
+        </a>
+      </div>
+      
+      <div class="text-left">
+        {{ site.description }}
+      </div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
 
+    <div class="text-center">
+      <a href="{{ site.hireurl }}">
+        <strong>{{ site.call_to_action }}</strong>
+      </a>
+    </div>
+
+<!--
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -13,15 +39,23 @@
         </svg>
       </a>
 
+
       <div class="trigger">
+        <a class="page-link" href="/">Articles</a>
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.link-title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+              {{ page.link-title }}
+            </a>
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="mailto:jdbdean+hopefullynotspam@gmail.com?body=Email me or alternatively call me on 360 834 9860">Contact</a>
       </div>
+   
+
     </nav>
 
   </div>
+-->
 
 </header>

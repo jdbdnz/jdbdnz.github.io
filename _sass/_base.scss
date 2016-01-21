@@ -162,7 +162,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include media-query-max($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
@@ -200,5 +200,21 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+.pull-right { float: right; }
+.pull-left  { float: left; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.hidden-xs {
+    @include media-query-max($on-palm) {
+        display: none;
+    }
+}
+.visible-xs {
+    @include media-query-min($on-palm) {
+        display: none;
     }
 }

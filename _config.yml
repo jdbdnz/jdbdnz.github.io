@@ -1,12 +1,13 @@
 # Site settings
-title: jdbd.nz
-description: > # this means to ignore newlines until "baseurl:"
-  An average developer documents his foray into design and business.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jdbd.nz" # the base hostname & protocol for your site
-twitter_username: jdbd_nz
-github_username:  jdbdean
-gravatar: http://gravatar.com/avatar/fb27d839cb858403f58f10f0d5434652.jpeg?s=1024
+title: "@jdbdnz"
+description: "Full-stack web developer"
+call_to_action: "Presently looking for opportunities in and around Vancouver, WA"
+baseurl: ""
+url: "http://jdbd.nz"
+twitter_username: jdbdnz
+github_username:  jdbdnz
+avatar: "/images/jdbdnz.jpg"
+hireurl: "/hire-me/"
 
 # Build settings
 markdown: kramdown
