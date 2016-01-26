@@ -363,6 +363,10 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.photos img {
+  width: 98%;
+  padding: 2%; }
+
 /**
  * Syntax highlighting styles
  */
