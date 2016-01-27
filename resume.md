@@ -1,146 +1,202 @@
 ---
 layout: page
-title: "Josh Dean"
-link-title: Résumé
-permalink: /
+title: ""
+link-title: "Résumé"
+permalink: /resume/
 ---
-## Full-stack Web Developer
 
-~5 years experience in web and mobile with lots of experience taking products from inception to launch. Possesses a Bachelor’s degree in Information Technology.
+<span class="pull-right">
+  Download Résumé in 
+  <a href="/files/josh-dean-cv.docx">Word Format</a> or in 
+  <a href="/files/josh-dean-cv.pdf">PDF Format</a>
+</span>
 
-Seeking a permanent position with a great company. I take pride in my work and enjoy a good working environment.
 
-## Keynote
+## Summary
+I am a US Resident from New Zealand.  I have recently relocated to Vancouver, WA and I am seeking web development opportunities. I hold a Bachelor’s degree in Information Technology and possess ~5 years of experience in web and mobile. I believe my excellent communication skills and work ethic, coupled with my ability to empathize with a product are my key strengths. My MBTI is INTJ.
 
-- Most recently working across Rails, React.js and iOS while leading a tiny team of developers.
-- Strongest skill is rapid prototyping
-- Cross-discipline background working at every stage of the SDLC
-- Focus on functional outcomes and great UX
-- Strong knowledge of APIs, cloud based, and distributed systems
-- AWS, GitHub, RSpec, CI (Travis, Jenkins), RAD, Agile, XP
+I am ideally seeking a permanent position, which will see me specialize in an area to build on my broad skillset gained in pre-money startups.  However, I am also open to contract opportunities.
+
+
+## Core Skills
+- Rails, MVC.NET, React.js and iOS
+- Functional outcomes, UI, UX
+- APIs, cloud based, and distributed systems
+- AWS, Azure, GitHub
+- Unit testing, RSpec, Travis, Jenkins
+- Code review, Pair programming, Agile, XP
 - Sketch, Visio, Photoshop, InVision
-- Bachelor's degree in Information Technology
 
-<br />
-
-## Career Summary
-
-<table width="100%">
-    <tr>
-      <td><strong>Developer, Touchtech / Leaping Tiger</strong></td>
-      <td> JUN 2015 — APR 2016</td>
-    </tr>
-    <tr>
-      <td><strong>Lead Developer, Chalkle.com</strong></td>
-      <td>JUL 2014 — JUN 2015</td>
-    </tr>
-    <tr>
-      <td><strong>Software Engineer, TS3</strong></td>
-      <td> NOV 2013 — JUL 2014</td>
-    </tr>
-    <tr>
-      <td><strong>Technical Lead, Digital Stock</strong></td>
-      <td>NOV 2011 — NOV 2013</td>
-    </tr>
-</table>
-
-
-<br />
-
-## Work History
-
-----
-
-#### Developer, Touchtech / Leaping Tiger
-*June 2015 - April 2016*
-
-Employed by Touchtech on a fixed term six month contract to lead development and build a three person in-house development team for their client Leaping Tiger. At the conclusion of the contract Leaping Tiger offered me a permanent position as their CTO, and although I have declined the role I have agreed to a fixed term contract which ends March 31st.
-
-- Interpretation and clarification of business and product requirements as they relate to design and development.
-- Continued Development of the Rails 4 API which leverages AWS load balancing, CDN and RDS
-- Designed and oversaw the development of a mixed native/React.js client app for Android, which successfully launched in November
-- Learned Objective-C and used Xcode to develop new features for the existing iOS app.
-- Documentation to describe the interface for client applications
-- User stories, workflow design, wire framing, and UI design.
-- Analytics of user acquisition and retention, identifying and measuring key interactions and reporting on those to assist business decisions and prioritise feature development.
-- Attended interviews and assisted with hiring decisions for new hires
-- Coordinated with and managed the work of Leaping Tiger’s product team (1 designer, 2 developers), as well as the other developers at Touchtech who were working on Leaping Tiger’s products.
-- Followed RAD and agile development principles
-- Continuous integration with Jenkins, unit testing with RSpec 
-
-<br />
-
-----
-
-#### Lead Developer, Chalkle.com
-*July 2014 — June 2015*
-
-Chalkle is a small startup, and I worked in a product team of two (myself and a developer/UX designer). I was hired on a six month contract to develop and maintain Chalkle’s web application which uses Rails 3 for front end and back.
-
- When I started, Chalkle was a piecemeal MVP which has seen a great many part-time developers working on it. It needed a major overhaul and central leadership of the technical systems to bring coherency and maintainability to the code base. I worked with internal and external stakeholders to establish the functional outcomes and define scope of my contract. I succeeded in overhauling the backend by mid October, while managing continuous integration and multiple releases each week without significantly disrupting the day to day operations of the organisations using the platform.  
-
-The contract was then renegotiated for a further six months to polish the user interfaces and improve the user experience. I worked closely with users, managing AB experiments, user observation, and surveying. Continuous integration and tests using Travis, RSpec and Cucumber.
-
-
-<br />
-
-----
-
-#### Software Engineer, Task Specific Software Solutions (TS3)
-*November 2013 - July 2014*
-
-TS3 develops bespoke operations software for large enterprise clients including airports, mining operations and industrial production companies. They do everything in .NET.
-At TS3 I worked in a team of three developers. My work was remote and I used Lync and Sharepoint for communications. I was exposed to many new technologies, and really enjoyed the opportunities to research and develop complex technical solutions suitable for the more challenging problems. I’ve included synopsis of the projects I worked on below.
-
-**LUIS** - Linked User Interface Suite
-
-LUIS is an UI framework developed by TS3, it serves as the foundation of the user interface layer for many of their client’s solutions. Its purpose is to enable rapid development of systems which connect analytics, forms, and integrated machinery for business management to have oversight of operations in multiple work sites.
-
-Prior to my employment LUIS was restricted to .NET Framework 2.0 and WinForms, which limited its ability to integrate with the latest technologies. I initiated a project to redevelop LUIS in .NET Framework 4 and WPF, this allowed for greater compatibility with client systems and the latest hardware and reduced development time of new projects. The project was lead by the CTO who had developed the original LUIS system. The integral components which I was responsible for was the initial research and case for how the project would significantly benefit TS3, and then in developing the user interface layer and backwards compatibility for legacy applications.
-
-**ETU** - Explosive Testing Unit for Airports
-
-ETU replaced paper based systems used at airport gates to document the explosive testing processes. I was responsible for developing the mobile app for Windows Tablet and the API they communicated with.
-
-**Delivery routing system**
-
-An industrial baker in Australia delivers to many locations daily with ~10 trucks in the field at anytime. Our solution would replace a physical map and “best guess” method by integrating with their stock and ordering system (Hamilton Grant) and working out the optimal amount of trucks to put into the field, what stock they should take with them, where to deliver which stock, and which route they should follow.
-
-I was responsible for developing a C# SDK to integrate with ArcGIS to do the routing, integrating with Hamilton Grant, and also the Windows mobile application for delivery drivers which tracked their physical progress, allowed for data input to track crates, and also deal with those inevitable unexpected last minute changes which come up in the field.
-
-Previously all projects at TS3 were done solely in T-SQL and stored procedures. I introduced TS3 to Entity Framework for a portion of this project with excellent results.
-
-<br />
-
-----
-
-#### Technical Lead, Digital Stock
-*November 2011 - November 2013*
-
-I started Digital Stock with Avinash Varghese in 2011 while I was studying at the Southern Institute of Technology. We offered websites and online marketing services to local businesses. I provided the technical expertise to create our customer’s solutions and Avinash offered business experience and strong social networks to leverage sales.
- My purpose in founding Digital Stock was to gain industry experience and also make that opportunity available to other students. In 2012 we hired two of my classmates Jim Dowling and Will Finlayson. When I graduated I wanted to grow my skills and career by working under more senior developers, and as I left those two purchased my shares and became directors.  Digital Stock evolved rapidly and is now a busy development consultancy specialising in farming solutions. I am extremely proud that Digital Stock maintains a close relationship with the Southern Institute of Technology by continuing to offer industry experience to students through internships.
-
-<br />
 
 ## Education
 
-----
-
 #### Bachelor of Information Technology, Southern Institute of Technology
-*Graduated 2013, A- average, transcript available on request*
+*Graduated 2013, A- average, [see my transcript](/education)*
 
 Papers focused programming, human computer interactions and system analysis and design. I was exposed to a wide range of technologies, worked on real projects for local businesses, and developed a broad foundational knowledge of Information Technologies. I entered every programming competition I could, and regularly placed first within the institute.
 
 
-Distinctions include:
+*Distinctions*
 
-- 2nd place ACM-ICPC division, 2011
 - Top marking student, 2011
-- Class Respresentative, 2012
 - Best Project, 2013
 
-<br />
 
-### Background, hobbies, etc.
+## Work History
 
-I am from Auckland, New Zealand. However I’ve been a US permanent resident since 1999. I’ve lived in Hawaii, Oregon and Washington at different times in my life. In 2010 I moved back to NZ to study and after graduation I enjoyed working on tech startups in Wellington (tech and political capital of NZ). I’m unmarried, really like dogs and cats, and I have four siblings. I read a huge amount of books on a wide range of topics and am always coming up with whacky ideas.
+### Developer, Touchtech / Leaping Tiger
+***June 2015 - March 2016 (Contract)***
+
+Touchtech is a web and mobile development shop based in Wellington, New Zealand. This role worked solely with their client Leaping Tiger, who offer a social network by the same name for video gamers. See them at [Touchtech.co.nz](http://touchtech.co.nz) and [Leaping-tiger.com](https://leaping-tiger.com). The contract commenced at approximately the same time Leaping Tiger launched its initial systems which were developed at Touchtech.
+
+Touchtech’s contract ended December 2015, at which time Leaping Tiger offered me a permanent position as their CTO. I declined the position as it required my presence in NZ, whereas I had planned to reside in the USA from 2016. For the purpose of performing proper hand over to the new CTO, I have accepted a remote contract with Leaping Tiger which ends in March 2016.
+
+#### Role Purpose
+
+To continue to develop Leaping Tiger’s software and systems, build an in-house development team, and smoothly phase out Touchtech’s involvement.
+
+#### Technologies
+- Ruby on Rails 4 (using MySQL)
+- React.js
+- Native iOS (Objective-C)
+- AWS – EC2, OpsWorks, RDS, Load Balancing, S3, CDN, CloudFront, Route 53, Chef Recipes
+- Intercom (API integrations for reporting)
+- Github
+- Jenkins
+- RSpec
+- Firebase (real-time in app messaging)
+- Google Cloud Messaging (web + Android push notifications)
+- Parse.com (iOS push notifications)
+
+#### Responsibilities
+- Leadership of Leaping Tiger’s product team
+- Attend interviews and advise on new technical hires
+- Interpret and clarify business and product requirements, as they relate to design and development
+- Work with UX designer to develop user stories, workflows, wire framing, and UI designs
+- Analyze and report on user acquisition and retention, identifying and measuring KPIs
+- Develop features and fix bugs for Rails 4 API, React.js web app, native iOS app
+- Lead development on the API, leveraging AWS load balancing, CDN and RDS
+- Review pull requests, merging and deployment of all code across Rails, React.js, and iOS
+- Creation and curation of technical documentation
+- Prioritization of feature development
+- Task assignment for internal product team
+- Liaise with Touchtech’s other developers to access more manpower as required
+
+#### Achievements
+- Successfully phased out Touchtech’s involvement, all development is now performed in-house
+- Oversaw the release of a React.js web app, enabling non-iOS users for Leaping-Tiger
+- Designed and managed the development of a mixed native/React.js app for Android, enabling Leaping Tiger to address a significant previously unavailable market
+- Lead development from product launch through to an active user base of ~10,000 
+- Learned Objective-C and used Xcode to develop new features for the existing iOS app, prior to hiring an iOS developer
+- Transformed MVP solution into robust and scalable multi-platform system
+
+
+
+### Lead Developer, Chalkle
+***July 2014 — June 2015 (Contract)***
+
+Chalkle is a pre-money tech startup based in Wellington, New Zealand. Chalkle offers a web based learning platform. Chalkle aims to significantly reduce administrative overheads for teachers and education providers. The product suite includes a booking system and payments gateway, event and class promotion, payroll for teachers, and Learning Management Systems to maintain students and learning modules. See it at [Chalkle.com](https://chalkle.com).
+
+#### Role Purpose
+Transform piecemeal ‘Minimum Viable Product’ into a functional system by working with the business team and UX designer to gather requirements, propose, and develop solutions.
+
+#### Technologies
+
+- Ruby on Rails 3.2, (using ERB and PostgreSQL)
+- Capistrano, Unicorn
+- Bootstrap (HTML, CSS, and JS framework)
+- Azure VM running Ubuntu
+- Mailchimp
+- Google Analytics
+
+#### Responsibilities
+
+- Final responsibility of system integrity and maintainability of code base
+- Develop features and fix bugs
+- Analyze and report on user acquisition and retention, identifying and measuring KPIs
+- Work with UX designer to develop user stories, workflows, wire framing, and UI designs
+- Creation and curation of technical documentation
+
+#### Achievements
+
+- Learned Ruby on Rails
+- Overhauled Rails 2.3 code base, entirely undocumented and the majority of which was not functional
+- Introduced a high degree of system integrity supported by a maintainable code base and automated testing
+- Refactored for an update to Ruby 2 and Rails 3.2
+- Fully mobile optimized web app (previously not responsive)
+- Managed the product through an active user base growth from ~500 - ~7000
+
+
+#### Software Engineer, Task Specific Software Solutions (TS3)
+***November 2013 - July 2014***
+
+TS3 is an Australian based company which develops bespoke operational software for enterprise clients, most notable of which are airports, mining operations and industrial production companies. They use Microsoft technologies wherever possible. 
+
+#### Role Purpose
+
+Working remotely in a team of three developers, reporting directly to the COO. Perform planning, analysis, design, and development of solutions as directed.
+Technologies
+
+- WinForms
+- WPF
+- Windows Mobile
+- Office 365, Lync, SharePoint
+- MSSQL, stored procedures, replication
+- MVC.NET
+- ArcGIS
+- C#
+
+#### Responsibilities
+
+- Research and Development
+- UI/UX Design
+- System Architecture
+- Developing, deploying, and supporting solutions for clients
+Achievements
+- Initiated, researched and developed .NET Framework 4.0 replacement for TS3’s proprietary user interface framework ‘LUIS’ which was previously limited to .NET Framework 2.0. This enabled interoperation with modern .NET technologies, most notably Windows Presentation Foundation (WPF). This allowed responsive user interfaces to be developed, solving a major pain point for clients who were running solutions with interfaces designed for 4:3 aspect ratio monitors, but had since upgraded to widescreen monitors
+- Developed legacy support for the new LUIS 4.0, essentially making WPF act as a wrapper to run the WinForms solutions developed for LUIS 2.0. This enabled TS3 to discontinue support for LUIS 2.0 while still continuing support for those solutions developed for LUIS 2.0, whose owners did not want to update their interfaces from WinForms to WPF
+- Developed C# SDK for integration with ArcGIS routing system
+
+
+#### Technical Lead, Digital Stock
+***November 2011 - November 2013***
+
+I started Digital Stock with Avinash Varghese in 2011 while I was studying at the Southern Institute of Technology. We offered CMS websites and online marketing services to local businesses. I provided the technical expertise and Avinash offered business experience and strong social networks to leverage sales. 
+
+My purpose in founding Digital Stock was to gain industry experience and also make that opportunity available to other students. In 2012 we hired two of my classmates Jim Dowling and Will Finlayson. When I graduated I wanted to grow my skills and career by working under more senior developers, and as I left those two purchased my shares and became directors.
+Digital Stock evolved rapidly and is now a busy development consultancy specializing in farming technology. I am extremely proud that Digital Stock maintains a close relationship with the Southern Institute of Technology by continuing to offer industry experience to students through internships.
+
+#### Role Purpose
+
+Work with clients to design, develop and support solutions suitable for their organization goals.
+
+#### Technologies
+
+- PHP
+- WordPress (bespoke themes and plugins)
+- Google Analytics
+- Bootstrap 
+- MVC.NET
+- MS Access
+
+#### Responsibilities
+
+- Discovery of requirements through meetings with clients
+- Agile development methodology, soliciting feedback and dealing with change requests at every stage of development
+- System Architecture
+- Training and support for customers in use of their CMS
+
+#### Achievements
+
+- Gained a huge amount of knowledge on how to manage and produce solutions
+- Excellent customer satisfaction
+- Employed two part-time workers in second year of operation
+
+
+### Background, etc.
+
+I am from Auckland, New Zealand. However, I’ve been a US permanent resident since 1999I’ve lived in Hawaii, Oregon and Washington at different times in my life. In 2010 I moved back to NZ to study and after graduation I enjoyed working on tech startups in Wellington (tech and political capital of NZ). I read a huge amount of books on a wide range of topics and am always coming up with whacky ideas. My goals for the next couple of years is to pay off my student loan, become a dual citizen, and progress my career.
+
+### See written recommendations on [LinkedIn](https://linkedin.com/in/jdbdnz)
+
+
