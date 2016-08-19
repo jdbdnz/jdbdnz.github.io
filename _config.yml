@@ -1,13 +1,12 @@
 # Site settings
-title: "Josh Dean"
-description: "Full-stack web developer"
-call_to_action: "Presently looking for opportunities in and around Vancouver, WA"
+title: "jdbd.nz"
 baseurl: ""
+description: "Write code. Make great stuff."
 url: "http://jdbd.nz"
 twitter_username: jdbdnz
 github_username:  jdbdnz
 avatar: "/images/jdbdnz.jpg"
-hireurl: "/resume"
+contact_url: "mailto:jdbdean+hopefullynotspam@gmail.com"
 
 # Build settings
 markdown: kramdown

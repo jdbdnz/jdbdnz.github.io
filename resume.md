@@ -6,34 +6,35 @@ permalink: /resume/
 ---
 
 <span class="pull-right">
-  Download Résumé in 
-  <a href="/files/josh-dean-cv.docx">Word Format</a> or in 
+  Download Résumé in
+  <a href="/files/josh-dean-cv.docx">Word Format</a> or in
   <a href="/files/josh-dean-cv.pdf">PDF Format</a>
 </span>
 
 
 ## Summary
-I am a US Resident from New Zealand.  I have recently relocated to Vancouver, WA and I am seeking web development opportunities. I hold a Bachelor’s degree in Information Technology and possess ~5 years of experience in web and mobile. I believe my excellent communication skills and work ethic, coupled with my ability to empathize with a product are my key strengths. My MBTI is INTJ.
-
-I am ideally seeking a permanent position, which will see me specialize in an area to build on my broad skillset gained in pre-money startups.  However, I am also open to contract opportunities.
-
+I'm a web developer at HP Inc. working on the Instant Ink team in Vancouver, WA. I hold a Bachelor’s degree in Information Technology and possess ~5 years of experience in web and mobile. My MBTI is INTJ.
 
 ## Core Skills
-- Rails, MVC.NET, React.js and iOS
-- Functional outcomes, UI, UX
+- Ruby on Rails
+- React.js
+- Machine Learning
 - APIs, cloud based, and distributed systems
-- AWS, Azure, GitHub
-- Unit testing, RSpec, Travis, Jenkins
+- AWS, Git
+- RSpec, Capybara
 - Code review, Pair programming, Agile, XP
-- Sketch, Visio, Photoshop, InVision
-
 
 ## Education
 
-#### Bachelor of Information Technology, Southern Institute of Technology
-*Graduated 2013, A- average, [see my transcript](/education)*
+#### Certificate in Machine Learning Foundations, University of Washington
+*June 2016, 97% Grade, [see my certificate](/education#machine_learning)*
 
-Papers focused programming, human computer interactions and system analysis and design. I was exposed to a wide range of technologies, worked on real projects for local businesses, and developed a broad foundational knowledge of Information Technologies. I entered every programming competition I could, and regularly placed first within the institute.
+Learning through Coursera. This course broadly covered the following topics: Regression (prediction), Classification (sentiment analysis), Clustering and similarity, Recommendations, Deep Learning (image recognition). I am working to achieve the complete Machine Learning Specialization which involves a more in depth courses specific to each of the topics covered above.
+
+#### Bachelor of Information Technology, Southern Institute of Technology
+*Graduated 2013, A- average, [see my transcript](/education#information_technology)*
+
+Papers focused on programming, human computer interactions and system analysis and design. I was exposed to a wide range of technologies, worked on real projects for local businesses, and developed a broad foundational knowledge of Information Technologies. I entered every programming competition I could, and regularly placed first within the institute.
 
 
 *Distinctions*
@@ -44,12 +45,40 @@ Papers focused programming, human computer interactions and system analysis and 
 
 ## Work History
 
+### Web & Database Developer, HP Inc. / Instant Ink
+***March 2016 - Present***
+
+[Instant Ink](https://instantink.com) is an ink replenishment service by HP Inc. It offers ink as a service, charging users a subscription fee to print pages and automatically shipping you new ink at no extra cost whenever you are running low. We work in an Ubuntu development environment and practice test driven development and pair programming.
+
+#### Role Purpose
+My role as a developer is supporting the web technologies that make this service possible.
+
+#### Technologies
+Ruby on Rails
+RSpec
+Capybara
+React.js
+Test Driven Development (TDD)
+Pair Programming
+Chef
+AWS
+Vertica
+Splunk
+Jenkins
+New Relic
+Git
+
+#### Responsibilities
+System engineering
+Programming
+Code Health
+DevOps
+
+
 ### Developer, Touchtech / Leaping Tiger
 ***June 2015 - March 2016 (Contract)***
 
 Touchtech is a web and mobile development shop based in Wellington, New Zealand. This role worked solely with their client Leaping Tiger, who offer a social network by the same name for video gamers. See them at [Touchtech.co.nz](http://touchtech.co.nz) and [Leaping-tiger.com](https://leaping-tiger.com). The contract commenced at approximately the same time Leaping Tiger launched its initial systems which were developed at Touchtech.
-
-Touchtech’s contract ended December 2015, at which time Leaping Tiger offered me a permanent position as their CTO. I declined the position as it required my presence in NZ, whereas I had planned to reside in the USA from 2016. For the purpose of performing proper hand over to the new CTO, I have accepted a remote contract with Leaping Tiger which ends in March 2016.
 
 #### Role Purpose
 
@@ -86,7 +115,7 @@ To continue to develop Leaping Tiger’s software and systems, build an in-house
 - Successfully phased out Touchtech’s involvement, all development is now performed in-house
 - Oversaw the release of a React.js web app, enabling non-iOS users for Leaping-Tiger
 - Designed and managed the development of a mixed native/React.js app for Android, enabling Leaping Tiger to address a significant previously unavailable market
-- Lead development from product launch through to an active user base of ~10,000 
+- Lead development from product launch through to an active user base of ~10,000
 - Learned Objective-C and used Xcode to develop new features for the existing iOS app, prior to hiring an iOS developer
 - Transformed MVP solution into robust and scalable multi-platform system
 
@@ -130,7 +159,7 @@ Transform piecemeal ‘Minimum Viable Product’ into a functional system by wor
 #### Software Engineer, Task Specific Software Solutions (TS3)
 ***November 2013 - July 2014***
 
-TS3 is an Australian based company which develops bespoke operational software for enterprise clients, most notable of which are airports, mining operations and industrial production companies. They use Microsoft technologies wherever possible. 
+TS3 is an Australian based company which develops bespoke operational software for enterprise clients, most notable of which are airports, mining operations and industrial production companies. They use Microsoft technologies wherever possible.
 
 #### Role Purpose
 
@@ -161,7 +190,7 @@ Achievements
 #### Technical Lead, Digital Stock
 ***November 2011 - November 2013***
 
-I started Digital Stock with Avinash Varghese in 2011 while I was studying at the Southern Institute of Technology. We offered CMS websites and online marketing services to local businesses. I provided the technical expertise and Avinash offered business experience and strong social networks to leverage sales. 
+I started Digital Stock with Avinash Varghese in 2011 while I was studying at the Southern Institute of Technology. We offered CMS websites and online marketing services to local businesses. I provided the technical expertise and Avinash offered business experience and strong social networks to leverage sales.
 
 My purpose in founding Digital Stock was to gain industry experience and also make that opportunity available to other students. In 2012 we hired two of my classmates Jim Dowling and Will Finlayson. When I graduated I wanted to grow my skills and career by working under more senior developers, and as I left those two purchased my shares and became directors.
 Digital Stock evolved rapidly and is now a busy development consultancy specializing in farming technology. I am extremely proud that Digital Stock maintains a close relationship with the Southern Institute of Technology by continuing to offer industry experience to students through internships.
@@ -175,7 +204,7 @@ Work with clients to design, develop and support solutions suitable for their or
 - PHP
 - WordPress (bespoke themes and plugins)
 - Google Analytics
-- Bootstrap 
+- Bootstrap
 - MVC.NET
 - MS Access
 
@@ -198,5 +227,3 @@ Work with clients to design, develop and support solutions suitable for their or
 I am from Auckland, New Zealand. However, I’ve been a US permanent resident since 1999I’ve lived in Hawaii, Oregon and Washington at different times in my life. In 2010 I moved back to NZ to study and after graduation I enjoyed working on tech startups in Wellington (tech and political capital of NZ). I read a huge amount of books on a wide range of topics and am always coming up with whacky ideas. My goals for the next couple of years is to pay off my student loan, become a dual citizen, and progress my career.
 
 ### See written recommendations on [LinkedIn](https://linkedin.com/in/jdbdnz)
-
-

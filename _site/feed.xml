@@ -1,79 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Josh Dean</title>
-    <description>Full-stack web developer</description>
+    <title>jdbd.nz</title>
+    <description>I write code and hack products</description>
     <link>http://jdbd.nz/</link>
     <atom:link href="http://jdbd.nz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jan 2016 16:08:12 -0800</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 16:08:12 -0800</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Order of Operations for Start Ups</title>
-        <description>&lt;p&gt;Too many times I’ve made the mistake of not following the right steps when designing a product. Actually let me rephrase that - too many times I’ve forgotten to design a product and blundered ahead with making it. Occasionally I’ll do some visual art (mock ups) first and praise myself for following protocol.&lt;/p&gt;
-
-&lt;p&gt;The reality is that there is a butt-load of work to be done before you can decide on the shape of a button. In order for that button to accomplish your mission, your mission must be clearly defined. Otherwise that button will flail around in dissatisfaction and go work for another company with a clear mission/vision instead.&lt;/p&gt;
-
-&lt;p&gt;As a developer I tend to think that writing code is cheap - I am trying to unlearn this. Writing code is expensive. The initial investment is relatively cheap for me compared to non-coders. But maintaining that code to ensure it actually serves a purpose is bloody expensive for anyone, be you a designer, developer, product manager.&lt;/p&gt;
-
-&lt;p&gt;In order to afford to code effectively (or draw buttons) I needed to acknowledge that it is expensive and that I should conserve my resources before deploying them in a structured and intentional manner.&lt;/p&gt;
-
-&lt;p&gt;I submit for your consumption, and my future reference, the order of operations you should take when designing your business, your product, or your startup.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Identify a problem which people have, and that you are qualified to solve.&lt;/strong&gt; If you are not qualified, you should have a passion to solve it and the budget to hire qualified people. Before you continue, be really sure you want to solve this problem - the vast majority of startups are defined by years of toiling in anguish not wheelbarrows full of cash.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gather feedback from potential users&lt;/strong&gt; and &lt;strong&gt;research the many cases of others attempting to solve the same problem&lt;/strong&gt;. Do not be insular. People are doing you a favour by listening to your idea, thank them with cake or chocolate.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Have a Mission which, when you accomplish it, solves user’s problems&lt;/strong&gt;. Whenever you are deciding whether or not implement a feature, or make any decision, you should be able to ask yourself &lt;em&gt;Will this work to accomplish my mission?&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Have a Vision which reflects the future when your mission is successful.&lt;/strong&gt; Is there something which is going to happen which will make your solution thrive? Will the effect of accomplishing your mission open an opportunity for you to succeed further?.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Design a Solution which solves the problem.&lt;/strong&gt; Ensure that users know what problem you are solving for them. Ensure it &lt;em&gt;actually does&lt;/em&gt; solve it for them. If you have no industry experience in design, hire or at least consult with a designer.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test that Solution to ensure it solves the problem in an elegant and unobstructive manner.&lt;/strong&gt; Most of all test that it &lt;em&gt;really actually does&lt;/em&gt; (can’t stress that enough) solve a real problem. Again, are you a designer? No? Get a designer.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Develop the Solution&lt;/strong&gt;. The need for help in developing a scalable solution is more obvious than the need for help designing it (you can’t code, don’t own a manufacturing plant, etc). But give the best developers in the world bad design and you’ll either get an awful product or you’ll lose your developers (probably the latter - good developers know the hallmarks of bad design). This is me stressing that you ensure you are confident in your design.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test the Solution to see all the ways it &lt;em&gt;actually doesn’t&lt;/em&gt; solve the problem of your users (or maybe it does but it could be more elegant and unobstructive).&lt;/strong&gt; Go back to step 5 and follow this cycle until either you find only trivial bugs which are not worth fixing (proceed to step 9) &lt;strong&gt;or&lt;/strong&gt; you run out of money, realise the problem isn’t real, or that your solution is flawed (cut your loses and decide whether you want to go back to step 1/2/3 to relive the anguish of startups or whether you want to go get a real job again).&lt;/li&gt;
-  &lt;li&gt;Wow you’re still here? You must have made a successful product. How’s that vision going? &lt;strong&gt;Go back to step 1, replacing the word &lt;em&gt;‘people’&lt;/em&gt; with &lt;em&gt;‘customers’&lt;/em&gt;.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I will refine these as I test and iterate. I invite you to do the same and share your findings below.&lt;/p&gt;
-
-&lt;p&gt;Heaps of credit to &lt;a href=&quot;https://medium.com/@intercom/the-dribbblisation-of-design-406422ccb026&quot;&gt;Paul Adams’ article found here&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 07 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://jdbd.nz/business/2015/06/07/start-up-order-of-operations.html</link>
-        <guid isPermaLink="true">http://jdbd.nz/business/2015/06/07/start-up-order-of-operations.html</guid>
-        
-        
-        <category>business</category>
-        
-      </item>
-    
-      <item>
-        <title>From Coffee to Computers</title>
-        <description>&lt;p&gt;Way back in 2010 I made &lt;a href=&quot;http://www.coffeetacoma.com&quot;&gt;really good coffee&lt;/a&gt;. I would probably still be making great coffee now if &lt;a href=&quot;https://de.linkedin.com/in/brettarichardson&quot;&gt;Brett Richardson&lt;/a&gt; hadn’t told me about the hottest thing at the time (Adobe Flash) and all the amazing money he was making in Europe with this thing called “Action Script 3″.&lt;/p&gt;
-
-&lt;p&gt;So I started as so many of us did - copying and pasting scripts of the internet to cobble together some fairly useless (only in retrospect I’m sure) Flash projects. Six months later I had moved back to NZ (I was on my 3 month turn 3 year OE in the states at the time), went south to Invercargill – the &lt;a href=&quot;http://sit.ac.nz&quot;&gt;polytech is free down there&lt;/a&gt; - and enrolled in the Bachelor of Information Technology where my great mentor &lt;a href=&quot;https://www.linkedin.com/profile/view?id=11579718&quot;&gt;Ken Sutton&lt;/a&gt; (head of department and all around fantastic guy) introduced me to zen and the art of coding.&lt;/p&gt;
-
-&lt;p&gt;Invercargill is filled with better chaps than many give them credit for - it was there I met &lt;a href=&quot;https://nz.linkedin.com/in/willfinlayson&quot;&gt;Will Finlayson&lt;/a&gt;, &lt;a href=&quot;https://nz.linkedin.com/in/avinashvarghese&quot;&gt;Nash Varghese&lt;/a&gt;, and &lt;a href=&quot;https://nz.linkedin.com/in/jamesdowlingnz&quot;&gt;Jim Dowling&lt;/a&gt;, all of which went through the emotional rollercoaster of &lt;a href=&quot;http://jobit.co.nz&quot;&gt;founding and failing their first start-up with me&lt;/a&gt;. Miraculously we were still mates at the end of that rollercoaster and went directly into starting up our own &lt;a href=&quot;https://digitalstock.co.nz&quot;&gt;development consultancy&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In retrospect it was blissfully naive for three IT graduates and a property manager to assume they knew how to run a development consultancy better than those already doing it, but credit to us all (scratch that - credit to them and only a little to me) we did better than we should of and after a lot of mistakes and hard work Digital Stock is now an established and growing Invercargill business.&lt;/p&gt;
-
-&lt;p&gt;Due to financial pressures and a nagging girlfriend I split with Digital Stock on good terms and took a spin on the carousal of enterprise applications. It was there met my &lt;a href=&quot;https://ts3.com.au&quot;&gt;three favourite Australians&lt;/a&gt; who gave me what were probably the most technically challenging projects I’ve ever worked on. Unfortunately that was short lived as I missed the glamour and the grit of the start-up world and on the tailcoats of a messy breakup I was pursuaded by &lt;a href=&quot;https://nz.linkedin.com/in/anthonycabraal&quot;&gt;Anthony Cabraal&lt;/a&gt; (probably the most pursuasive guy I’ve ever met) to remove myself to Wellington and rebuild the technology behind Chalkle.com in an &lt;a href=&quot;/mvc-vs-rails&quot;&gt;entirely unfamiliar stack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Chalkle gave me the opportunity to get to know &lt;a href=&quot;https://nz.linkedin.com/in/silviazuur&quot;&gt;Silvia Zuur&lt;/a&gt; (CEO) and &lt;a href=&quot;https://nz.linkedin.com/pub/matthew-kerr/10/a87/6a&quot;&gt;Matthew Kerr&lt;/a&gt; (His role changes every week as far as I’m aware), two of the most considerate and trustworthy people I’ve had the fortune to come across. I’m still strapped into the Chalkle rollercoaster - I’ve even had a recent promotion from “Developer” to “Lead Developer” on the expectation that we’ll be growing the development team soon.&lt;/p&gt;
-
-&lt;p&gt;Having brought the narrative to the present day I’m quite self-concious that this is vanity writing and the history of my professional career won’t really interest anyone but future-josh, so amuse me while I use this reflective moment to impart what humble wisdom the last half-decade has granted me:&lt;/p&gt;
-
-&lt;p&gt;When you abandon your coffee job for a profession do so not for the money but for love and obsession as any increase in income is entirely negated by the cost of maintaining the caffine addiction you’ve developed after years of slinging shots.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 15 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://jdbd.nz/jdbd/2015/04/15/the-road-from-coffee-to-computers.html</link>
-        <guid isPermaLink="true">http://jdbd.nz/jdbd/2015/04/15/the-road-from-coffee-to-computers.html</guid>
-        
-        
-        <category>jdbd</category>
-        
-      </item>
+    <pubDate>Fri, 19 Aug 2016 09:21:28 -0700</pubDate>
+    <lastBuildDate>Fri, 19 Aug 2016 09:21:28 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
   </channel>
 </rss>

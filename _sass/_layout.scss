@@ -2,75 +2,68 @@
  * Site header
  */
 
-
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    padding: 10px 0;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 }
 
 .avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin: 0 10px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  margin: 0 10px;
 }
 
 .site-title {
-    font-size: 24px;
+  h1 {
+    font-family: $title-font-family;
+    color: $brand-color;
+  }
 
-    strong {
-      font-weight: 400;  
-      letter-spacing: -0.5px;
-    }
+  strong {
+    font-weight: 400;
+    letter-spacing: -0.5px;
+  }
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+  &,
+  &:visited {
+      color: $grey-color-dark;
+  }
 
-    &:hover {
-        text-decoration: none;
-    }
-    
-    .text-right {
-      width: 38%;
-      z-index: 2;
-      position: relative;
-    }
+  &:hover {
+      text-decoration: none;
+  }
 
-    .text-center {
-      width: 18%;
-    }
+  > * {
+    float: left;
+    line-height: 5em;
+    white-space: nowrap;
 
-    .text-left {
-      width: 44%;
-    }
+    @include media-query-min($on-palm) {
+      padding-top: 30px;
 
-     >* {  
-      float: left;
-      line-height: 5em;
-      white-space: nowrap;
-      
-      @include media-query-max($on-palm) {
-        text-align: center;
-        width: 100% !important;
-        line-height: 2.5em;
+      &.multiline {
+        line-height: 1em;
+        padding-top: 3em;
+        padding-left: 1em;
       }
     }
 
-
     @include media-query-max($on-palm) {
-      padding-top: 30px;
+      line-height: 2.5em;
+      text-align: center;
+      width: 100% !important;
     }
+  }
+
+
+  @include media-query-max($on-palm) {
+    padding-top: 30px;
+  }
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
     width: 100%;
     text-align: center;
@@ -78,10 +71,6 @@
     > * {
       z-index: 3;
       position: relative;
-    }
-
-    .menu-icon {
-        display: none;
     }
 
     .page-link {
@@ -92,51 +81,15 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
-    }
 
-    @include media-query-max($on-palm) {
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        background-color: $background-color;
-        text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
+        @include media-query-max($on-palm) {
+          width: 100%;
+          margin: 0;
+          text-align: center;
         }
     }
 }
-
 
 
 /**
