@@ -4,13 +4,11 @@ title: "Hi I'm Josh"
 pagetitle: jdbd.nz -
 permalink: /
 ---
+I'm a **software developer** in ~~Invercargill~~, ~~Wellington~~, ~~Portland~~, **Santa Barbara**.
 
-I'm from New Zealand, but I live in Vancouver, WA now. This is my personal site, where I indulge in writing about myself and my ideas. It's mostly about my efforts to make great stuff, from how my code works to how we as people work together. I also like to make note of good books I've read and why I liked them.
+Anything found here in no way represents the views of my employer, [Procore Technologies](https://www.procore.com/) _(who is totally rad - talk to me if you want the best job you'll ever have)_.
 
-Right now I work at HP Inc. on Instant Ink as a web developer, using Rails, React.js and a host of other great technologies. Even though we're a part of a big company, we borrow lots of ideas and methods from successful tech startups. <em>This websites contains only my own opinions and thoughts (unless otherwise attributed), do not think for a second that anything I say represents my employer.</em>
-
-Before Instant Ink, I founded and worked in a handful of other startups in tiny teams on shoe string budgets. Some of them were more successful than others, but all of them offered awesome learning which left me with a passion for product development.
-
+I've founded and worked on a handful of shoestringed startups, some of them were more successful than others. All of them offering awesome learnings and imbuing me with a passion for product development which I will attempt to relate herein.
 
 [resume]: /resume
 [github]: https://github.com/{{ site.github_username }}

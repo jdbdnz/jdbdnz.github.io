@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jdbd.nz</title>
-    <description>I write code and hack products</description>
-    <link>http://jdbd.nz/</link>
-    <atom:link href="http://jdbd.nz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Aug 2016 09:21:28 -0700</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2016 09:21:28 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <description>Books, Code, Ideas, Indulgence.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Jul 2017 13:17:07 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Jul 2017 13:17:07 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
   </channel>
 </rss>
