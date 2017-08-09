@@ -1,4 +1,4 @@
-<!-- whoa hey now, this page was put together in a rush! Go check out https://github.com/jdbdnz if you want to see some code -->
+<!-- whoa hey now! Peeking under the curtain eh? jdbd.nz is made with Jekyll. Check out https://github.com/jdbdnz/jdbdnz.github.io if you want to see the code -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +7,14 @@
   <meta property="og:type" content="blog"/>
   <meta property="og:site_name" content="jdbd.nz"/>
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.avatar }}{% endif %}"/>
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - jdbd.nz"/>
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 
 
-  <title>{% if page.pagetitle %}{{ page.pagetitle }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.pagetitle %}{{ page.pagetitle }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - jdbd.nz</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %} - jdbd.nz">
 
+  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
