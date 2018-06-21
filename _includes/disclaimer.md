@@ -1,1 +1,0 @@
-Anything found here in no way represents the views of my employer, <a href="https://www.procore.com/">Procore Technologies</a> <em>(who is totally rad - talk to me if you want the best job you'll ever have)</em>.
