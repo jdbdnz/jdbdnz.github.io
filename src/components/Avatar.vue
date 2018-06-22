@@ -1,6 +1,8 @@
+<template>
+  <img class="avatar" />
+</template>
 <script>
 export default {
-  name: "Avatar",
-  template: '<img class="avatar">'
+  name: "Avatar"
 };
 </script>

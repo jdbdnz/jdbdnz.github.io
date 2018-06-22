@@ -3,7 +3,7 @@ import Josh from "./Josh.vue";
 import Margot from "./Margot.vue";
 import VueRouter from "vue-router";
 
-import "./assets/scss/globals/index.scss";
+import "./index.scss";
 
 Vue.use(VueRouter);
 
