@@ -1,15 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Frijole|Playfair+Display|Shrikhand');
+
+$frijole: 'Frijole', cursive;
+$cinzel: 'Cinzel', serif;
+$playfair: 'Playfair Display', serif;
+$shrikhand: 'Shrikhand', cursive;
+$marine: #3188A3;
+$aqua: #65AAB9;
+$yellow: #E5C421;
+$orange: #D8A107;
+$red: #EB0105;
+$black: #2c3e50;
+$border-bottom-height: 10px;
+
+html, body, #app, #app > *  {
+  margin: 0;
+  min-height: calc(100vh - 10px);
+}
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $black;
   max-width: 100%;
+  border-bottom: 10px solid $yellow;
 }
 
 .container {
-  margin: 40px auto 0;
-  padding: 0 20px;
+  padding: 40px 20px;
   max-width: 1200px;
 }
 
@@ -29,30 +48,31 @@ li {
 }
 
 a {
-  color: #42b983;
-}
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.text-right {
-  text-align: right;
-}
-.text-left {
-  text-align: left;
+  color: $aqua;
 }
 
 img {
   max-width: 100%;
 }
 
+.twitter-wrapper {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
 .avatar {
   height: 100px;
   width: 100px;
   border-radius: 50px;
+}
+
+
+#fomo {
+  background: $black;
+  color: $orange;
+  h1 {
+    color: $red;
+    font-family: $frijole;
+  }
 }

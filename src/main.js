@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Josh from "./Josh.vue";
 import Margot from "./Margot.vue";
+import Fomo from "./Fomo.vue";
 import VueRouter from "vue-router";
 
 import "./index.scss";
@@ -12,7 +13,8 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: "/", component: Josh },
-    { path: "/margot", component: Margot }
+    { path: "/margot", component: Margot },
+    { path: "/FOMO", component: Fomo }
   ]
 });
 
