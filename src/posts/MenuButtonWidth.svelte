@@ -92,7 +92,10 @@
     <p class="my-2">Awful.</p>
     <p class="my-2">There's dead space to the right of my text when it isn't wider that the min-width.</p>
 
-    <h3 class="text-xl mt-8 font-semibold">Stupid Workaround</h3>
+    <h3 class="text-xl mt-8 font-semibold">
+      <strike>Stupid Workaround</strike>
+      Elegant Solution
+    </h3>
     <p class="my-2">
       Give the dropdown an absolutely positioned parent with a ridiculous large width (I've used 10000px here) and your
       dropdown will grow to the width of its content, regardless of the width of the position parent (up to 10000px).
