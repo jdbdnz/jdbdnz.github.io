@@ -123,7 +123,7 @@
       </div>
 
       <div>
-        <div class="inline-block relative bg-active rounded px-2 py-1 text-white shadow-sm mb-32 dm:ml-40">
+        <div class="inline-block relative bg-active rounded px-2 py-1 text-white shadow-sm mb-32 sm:ml-40">
           <span class="py-1">Button</span>
           <div class="left-0 absolute" style="width: 10000px">
             <div class="p-1 absolute mt-1 bg-highlight shadow rounded text-left">
