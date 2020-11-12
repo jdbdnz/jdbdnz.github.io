@@ -3,7 +3,7 @@
   import MenuButtonWidth from '../posts/MenuButtonWidth.svelte'
 </script>
 
-<section class="m-5 max-w-screen-md mx-auto">
+<section class="m-3 p-2 max-w-screen-md mx-auto">
   <Link to="2020-11-10-menu-button-width">
     <article>
       <header>
@@ -15,5 +15,7 @@
         simply wrap. This should trivial. Alas, it is not trivial.
       </p>
     </article>
+
+    <span class="underline text-active">Read more</span>
   </Link>
 </section>
