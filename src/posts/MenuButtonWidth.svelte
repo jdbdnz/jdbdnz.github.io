@@ -15,7 +15,7 @@
       Absolutely positioned items expand to the width of their position parent and then wrap.
     </p>
     <p class="my-2">
-      Give your button wrapper a relative positive, and your dropdown and absolute, and you quickly notice the problem.
+      Give your button wrapper a relative positive, and your dropdown an absolute, and you quickly notice the problem.
     </p>
 
     <div class="p-1 flex space-x-2 mb-32">
@@ -41,7 +41,7 @@
     </p>
 
     <p class="my-2">
-      It's not awful, but it's not great. Try simplify your button to just an icon and you wind up with a
+      It's not awful, but it's not great. Try simplifying your button to just an icon and you wind up with a
       <em>very</em>
       narrow dropdown. Let's try it.
     </p>
@@ -67,7 +67,7 @@
     </div>
 
     <p class="my-2">Gross.</p>
-    <p class="my-2">Let's try fix it with a min-width.</p>
+    <p class="my-2">Let's try to fix it with a min-width.</p>
     <div class="inline-block relative bg-active rounded px-2 py-1 text-white shadow-sm mb-20">
       <span class="py-1">
         <svg
@@ -94,7 +94,7 @@
 
     <h3 class="text-xl mt-8 font-semibold">Stupid workaround.</h3>
     <p class="my-2">
-      Give the dropdown an absolutely positioned parent with a ridiculous large width (I've used 10000px here). and your
+      Give the dropdown an absolutely positioned parent with a ridiculous large width (I've used 10000px here) and your
       dropdown will grow to the width of its content, regardless of the width of the position parent (up to 10000px).
     </p>
 
@@ -108,7 +108,7 @@
       </div>
     </div>
 
-    <p class="my-2">Be sure to add a max-width your dropdown wraps at some point</p>
+    <p class="my-2">Be sure to add a max-width your dropdown so that it wraps at a point.</p>
 
     <div class="flex flex-col sm:flex-row">
       <div>
@@ -135,13 +135,13 @@
     </div>
 
     <p class="my-2">
-      Oscar wilde claimed that all art is useless and so all that is useful cannot not be art, but I think this
+      Oscar Wilde claimed that all art is useless and so all that is useful cannot be art, but I think this
       <strike>stupid workaround</strike>
       elegant solution proves otherwise.
     </p>
     <p class="my-2">
-      <a href="//codepen.io/jdbd/pen/PozXYWB" class="underline text-active">Here is the Code Pen</a>
-      which demonstrates the problem and the solution.
+      <a href="//codepen.io/jdbd/pen/PozXYWB" class="underline text-active">Here is a Code Pen</a>
+      which demonstrates the problem and solution.
     </p>
   </article>
 </section>
