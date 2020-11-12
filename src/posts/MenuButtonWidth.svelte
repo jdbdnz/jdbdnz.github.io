@@ -1,5 +1,5 @@
 <section class="m-3 p-2 max-w-screen-md mx-auto">
-  <article>
+  <article class="overflow-x-hidden">
     <header>
       <time datetime="2020-11-11" class="text-tertiary text-sm">November 11th, 2020</time>
       <h2 class="text-2xl mb-1">Controlling the width of an open menu button dropdown</h2>
@@ -90,7 +90,7 @@
     </div>
 
     <p class="my-2">Awful.</p>
-    <p class="my-2">There's dead space to the right of my text when it isn't wider that the min width.</p>
+    <p class="my-2">There's dead space to the right of my text when it isn't wider that the min-width.</p>
 
     <h3 class="text-xl mt-8 font-semibold">Stupid workaround.</h3>
     <p class="my-2">
@@ -108,15 +108,26 @@
       </div>
     </div>
 
-    <p class="my-2">Be sure to add a max-width your dropdown so that it wraps at a point.</p>
+    <h3 class="text-xl mt-8 font-semibold">Gotchas.</h3>
+
+    <p class="my-2">You don't need to worry about the position parent getting in the way since it is 0px tall.</p>
+
+    <p class="my-2">But because it is very wide, you do need to worry about horizontal overflow.</p>
+    <p class="my-2">
+      The
+      <code class="text-sm font-mono text-n5">overflow-x: hidden</code>
+      I've added to this article is all that is preventing our ridiculously wide position parent from gifting us a
+      ridiculously wide horizontal scrollbar.
+    </p>
+    <p class="my-2">Also, be sure to add a max-width your dropdown so that it wraps at a point.</p>
 
     <div class="flex flex-col sm:flex-row">
       <div>
-        <div class="inline-block relative bg-active rounded px-2 py-1 text-white shadow-sm mb-32">
+        <div class="inline-block relative bg-active rounded px-2 py-1 text-white shadow-sm mb-16">
           <span class="py-1">Button</span>
           <div class="left-0 absolute" style="width: 10000px">
             <div class="p-1 absolute mt-1 bg-highlight shadow rounded text-left" style="max-width: 200px">
-              I have a 200px max-width, so I wrap.
+              I wrap at a 200px max-width.
             </div>
           </div>
         </div>
@@ -127,7 +138,7 @@
           <span class="py-1">Button</span>
           <div class="left-0 absolute" style="width: 10000px">
             <div class="p-1 absolute mt-1 bg-highlight shadow rounded text-left">
-              I do not have a max width applied, I do not wrap (until 10000px).
+              Without a max-width, I do not wrap (until 10000px).
             </div>
           </div>
         </div>
