@@ -1,0 +1,66 @@
+<section class="m-3 p-2 max-w-screen-md mx-auto">
+  <article>
+    <header>
+      <time datetime="2020-11-11" class="text-tertiary text-sm">November 21th, 2020</time>
+      <h2 class="text-2xl mb-1">Grouping with Vue.Draggable (or any sorting plugin)</h2>
+    </header>
+    <p class="my-2">
+      Vue.Draggable is one of many excellent tools for sorting a list of items. However, after struggling to find a
+      pluggable solution which also provides an adequate solution for grouping items, I devised my own solution which
+      should work just as well for most sorting plugins.
+    </p>
+
+    <h3 class="text-lg mt-4 font-semibold">Problem</h3>
+
+    <p class="my-2">
+      Already using Vue.Draggable to sort a list of items, I was presented with a new requirement to group those items.
+    </p>
+
+    <p class="my-2">
+      I found the
+      <a class="underline text-active" href="https://sortablejs.github.io/Vue.Draggable/#/nested-example">Vue.Draggable
+        demo nesting solution</a>
+      too difficult to operate as a user; it isn't clear to me what actions cause items to group or ungroup.
+    </p>
+
+    <h3 class="text-xl mt-8 font-semibold">Solution</h3>
+    <p class="my-2">
+      This was definitely a forehead slap moment for me, realizing I could make things appear to group with CSS instead
+      trying to do anything fancy like nested Vue.Draggable instances.
+    </p>
+    <p class="my-2">I add "spacer" items between every item not in a group, and omit them between grouped items.</p>
+    <p class="my-2">This is a static example to demonstrate how items may appear to be grouped.</p>
+
+    <div class="flex-col items-stretch">
+      <div class="my-4" />
+      <div class="px-2 py-1 bg-primary mb-px">Item 1 · Ungrouped</div>
+      <div class="my-4" />
+      <div class="px-2 py-1 bg-primary mb-px">Item 2 · Ungrouped</div>
+      <div class="my-4" />
+      <div class="px-2 py-1 bg-primary mb-px">Item 3 · Group 1</div>
+      <div class="px-2 py-1 bg-primary mb-px">Item 4 · Group 1</div>
+      <div class="px-2 py-1 bg-primary mb-px">Item 5 · Group 1</div>
+      <div class="my-4" />
+      <div class="px-2 py-1 bg-primary mb-px">Item 6 · Group 2</div>
+      <div class="px-2 py-1 bg-primary mb-px">Item 7 · Group 2</div>
+      <div class="my-4" />
+      <div class="px-2 py-1 bg-primary mb-px">Item 8 · Ungrouped</div>
+      <div class="my-4" />
+    </div>
+
+    <h3 class="text-xl mt-8 font-semibold">Rules</h3>
+    <ol class="list-decimal ml-4">
+      <li>
+        Sort and group your data list, then build a view list by flattening your data list and placing an empty index
+        between each group and ungrouped item.
+      </li>
+      <li>Do not give your spaces drag handlers.</li>
+      <li>Put a space in the first and last position, so items can be dragged to the extremes without grouping.</li>
+    </ol>
+
+    <p class="my-2">
+      <a href="//codepen.io/jdbd/full/JjKzzbE" class="underline text-active"> Here is a Code Pen </a>
+      demonstrating the solution using Vue.Draggable.
+    </p>
+  </article>
+</section>
