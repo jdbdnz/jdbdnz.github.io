@@ -48,7 +48,7 @@
       <div class="my-4" />
     </div>
 
-    <h3 class="text-xl mt-8 font-semibold">Rules</h3>
+    <h4 class="text-lg mt-4 font-semibold">Rules</h4>
     <ol class="list-decimal ml-4">
       <li>
         Sort and group your data list, then build a view list by flattening your data list and placing an empty index
@@ -60,7 +60,29 @@
 
     <p class="my-2">
       <a href="//codepen.io/jdbd/full/JjKzzbE" class="underline text-active"> Here is a Code Pen </a>
-      demonstrating the solution using Vue.Draggable.
+      demonstrating the solution using Vue.Draggable starring the cast of Firefly.
+    </p>
+
+    <h3 class="text-xl mt-8 font-semibold">This is an accessibility and usability nightmare</h3>
+
+    <p class="my-2">
+      I don't find this much easier to use than the Vue.Draggable nested solution, so I absolutely would not want to
+      inflict this interface on anyone without both fine motor color and a high quality device interface.
+    </p>
+
+    <p class="my-2">
+      My final solution involved having a distinct "grouping" mode, involving checking items to be grouped, then
+      clicking a "Create Group" button. It isn't clever, but it is functional and accessible by using common established
+      form inputs.
+    </p>
+    <p class="my-2">
+      Even dragging and dropping to sort may be convenient for some and still difficult for others, and you should
+      include buttons to fall back on. At least "Move Up" and "Move Down", and also "Move to Top" and "Move to Bottom"
+      for longer lists.
+    </p>
+    <p>
+      Thanks for reading, sorry it didn't have a very happy ending, but hopefully your itch to group with Vue.Draggable
+      - or whatever else is itchy - was scratched.
     </p>
   </article>
 </section>
